@@ -9,6 +9,7 @@ class Gn < Formula
 
   depends_on macos: :catalina
   depends_on "ninja"
+  depends_on "python3" => :build
 
   def install
     system "python3", "build/gen.py"
