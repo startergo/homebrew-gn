@@ -7,7 +7,6 @@ class Gn < Formula
   version "2026.04.24"
   license "BSD-3-Clause"
 
-  depends_on macos: :catalina
   depends_on "ninja"
   depends_on "python3" => :build
 
