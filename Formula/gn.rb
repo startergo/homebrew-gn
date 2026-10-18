@@ -3,8 +3,8 @@ class Gn < Formula
   homepage "https://gn.googlesource.com/"
   url "https://gn.googlesource.com/gn",
       using:    :git,
-      revision: "dcc5e98fbd103caf0b1168207895877deb45742f"
-  version "2026.04.24"
+      revision: "f90c3d9df882a9da4a66457f47dd3d99b3df3dd5"
+  version "2026.10.15"
   license "BSD-3-Clause"
 
   depends_on "ninja"
