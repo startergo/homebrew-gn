@@ -12,7 +12,7 @@ class Gn < Formula
 
   def install
     system "python3", "build/gen.py"
-    system "ninja", "-C", "out"
+    system "ninja", "-C", "out", "gn"
 
     bin.install "out/gn"
   end
